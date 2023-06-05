@@ -63,13 +63,15 @@ h6 {
 }
 
 
-
+.fq-box {
+    width: 50%;
+}
 
 @media only screen and (max-width:688px) {
     .c-item-con div {
         z-index: 2;
         position: absolute;
-        top: 70%;
+        top: 60%;
 
     }
 
@@ -82,7 +84,7 @@ h6 {
     }
 
     .c-item-con div a {
-        margin-top: 0;
+        margin-top: -7em;
         padding: 4px 5px !important;
     }
 
@@ -125,17 +127,27 @@ h6 {
         text-align: center;
     }
 
-    .st-box {
-        width: 90%;
+    .st-box,
+    .fq-box {
+        width: 100%;
 
     }
 
     .gutter {
         margin-left: 0em;
     }
+
+    .st-feed {
+        flex-direction: column;
+
+    }
 }
 
 @media only screen and (min-width:689px) and (max-width:992px) {
+    .c-item-con div h1 {
+        font-size: 2em;
+    }
+
     .course-flex-d-sm {
         box-shadow: 0px 0px 2px #dad8d8;
     }
@@ -147,5 +159,10 @@ h6 {
 
     .gutter {
         margin-left: 0em;
+    }
+
+    .fq-box {
+        width: 70%;
+
     }
 }
