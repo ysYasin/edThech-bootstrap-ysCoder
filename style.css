@@ -14,9 +14,14 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+logo {
     font-family: 'Poppins', sans-serif;
 
+}
+
+.logo {
+    color: #ff5c20;
 }
 
 .f-size-1 {
@@ -166,7 +171,7 @@ h6 {
     }
 
     .fq-box {
-        width: 70%;
+        width: 90%;
 
     }
 
